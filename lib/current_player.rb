@@ -19,6 +19,6 @@ def current_player(board)
 end
 
 def turn_count(board)
-  turns = 0 
+  turns = 0
   board.each do |space|
     
