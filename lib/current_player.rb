@@ -17,3 +17,8 @@ def current_player(board)
     return "O"
   end
 end
+
+def turn_count(board)
+  turns = 0 
+  board.each do |space|
+    
